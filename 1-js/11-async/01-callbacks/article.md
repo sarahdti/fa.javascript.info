@@ -65,7 +65,7 @@ newFunction();
 بیایید به عنوان آرگومان دوم `loadScript` یک تابع `callback` اضافه کنیم که زمانی که اسکریپت بارگذاری شد، اجرا شود:
 
 ```js
-function leadScript(src, *!*callback*/!*) {
+function loadScript(src, *!*callback*/!*) {
     let script = document.createElement("script");
     script.src = src;
 
